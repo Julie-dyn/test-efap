@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edb6bd;
+  }
+  
+.logo{
+width: 150px;
+border-radius: 50%;
+padding: 10px 30px;
+  }
+
+  .links {
+    gap: 24px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10%;
+  }
+  
+  .link {
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 10px 30px;
+    color: #9F3442;
+    background-color: #e77f8d;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  
+  .link:hover {
+    color: #458D2E;
+  }
+
+  body{
+    Margin: 0; 
+  }
+
+.maps {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.video {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
