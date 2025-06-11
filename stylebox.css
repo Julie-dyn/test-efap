@@ -22,7 +22,7 @@ h1 {
 }
 
 .hero {
-  background: url('/Users/juliedoyen/Library/CloudStorage/OneDrive-GroupeE.D.H/EFAP2/S2/culture web/html css/Box box/danse photo net.jpg') center/cover no-repeat;
+  background: url('danse photo net.jpg') center/cover no-repeat;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -114,7 +114,7 @@ h1 {
 }
 
 .rsvp {
-  background-image: url('/Users/juliedoyen/Library/CloudStorage/OneDrive-GroupeE.D.H/EFAP2/S2/culture web/html css/Box box/danse photo net.jpg'); 
+  background-image: url('danse photo net.jpg'); 
   background-size: cover;
   background-position: center;
   height: auto;
