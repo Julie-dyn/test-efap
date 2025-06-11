@@ -1,4 +1,3 @@
-/* Base globale */
 html, body {
   margin: 0;
   padding: 0;
@@ -8,7 +7,6 @@ html, body {
   background-color: #1b0f65;
 }
 
-/* Paragraphes */
 p {
   font-family: 'Dosis', regular;
   font-size: 1.2em;
@@ -16,7 +14,6 @@ p {
   margin-bottom: 1em;
 }
 
-/* H1 uniformisé */
 h1 {
   font-family: 'Dosis', regular;
   font-size: 3em;
@@ -24,7 +21,6 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* Section Hero */
 .hero {
   background: url('/Users/juliedoyen/Library/CloudStorage/OneDrive-GroupeE.D.H/EFAP2/S2/culture web/html css/Box box/danse photo net.jpg') center/cover no-repeat;
   height: 100vh;
@@ -47,7 +43,6 @@ h1 {
   left: 20px;
 }
 
-/* Bouton RSVP */
 .rsvp-button {
   margin-top: 1em;
   padding: 1em 2em;
@@ -61,7 +56,6 @@ h1 {
   border-radius: 5px;
 }
 
-/* Section Danse */
 .my_class_0021 {
   background-color: #1b0f65;
   padding: 80px 20px;
@@ -94,7 +88,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Contemporain */
 .content-contempo {
   display: flex;
   align-items: center;
@@ -120,7 +113,6 @@ h1 {
   border-radius: 8px;
 }
 
-/* Section RSVP */
 .rsvp {
   background-image: url('/Users/juliedoyen/Library/CloudStorage/OneDrive-GroupeE.D.H/EFAP2/S2/culture web/html css/Box box/danse photo net.jpg'); 
   background-size: cover;
@@ -149,7 +141,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* Bouton global */
 .btn {
   background-color: rgb(241, 196, 218);
   color: white;
@@ -160,7 +151,6 @@ h1 {
   font-size: 1em;
 }
 
-/* Lieu */
 .location-icon {
   height: 120px;
   margin-right: 20px;
