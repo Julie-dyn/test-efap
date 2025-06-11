@@ -1,51 +1,183 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #edb6bd;
-  }
-  
-.logo{
-width: 150px;
-border-radius: 50%;
-padding: 10px 30px;
-  }
-
-  .links {
-    gap: 24px;
-    display: flex;
-    justify-content: flex-end;
-    border-radius: 10%;
-  }
-  
-  .link {
-    text-decoration: none;
-    padding: 10px 30px;
-    margin: 10px 30px;
-    color: #9F3442;
-    background-color: #e77f8d;
-    font-size: 24px;
-    border-radius: 10px;
-  }
-  
-  .link:hover {
-    color: #458D2E;
-  }
-
-  body{
-    Margin: 0; 
-  }
-
-.maps {
-  width: 1000px;
-  display: flex;
-  justify-content: center;
-  margin: 20px;
+/* Base globale */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Dosis', regular;
+  color: white;
+  background-color: #1b0f65;
 }
 
-.video {
-  width: 1000px;
+/* Paragraphes */
+p {
+  font-family: 'Dosis', regular;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+/* H1 uniformisé */
+h1 {
+  font-family: 'Dosis', regular;
+  font-size: 3em;
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+
+/* Section Hero */
+.hero {
+  background: url('/Users/juliedoyen/Library/CloudStorage/OneDrive-GroupeE.D.H/EFAP2/S2/culture web/html css/Box box/danse photo net.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero .adresse,
+.hero .logo {
+  position: absolute;
+  top: 20px;
+  font-size: 1em;
+}
+
+.hero .logo {
+  left: 20px;
+}
+
+/* Bouton RSVP */
+.rsvp-button {
+  margin-top: 1em;
+  padding: 1em 2em;
+  background: rgb(241, 196, 218);
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Section Danse */
+.my_class_0021 {
+  background-color: #1b0f65;
+  padding: 80px 20px;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  align-items: center;
+}
+
+.danse-content {
+  max-width: 1200px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.danseuse-image {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.danse-text {
+  color: rgb(241, 196, 218);
+  max-width: 500px;
+}
+
+.danse-text h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Contemporain */
+.content-contempo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-contempo {
+  max-width: 600px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  color: rgb(241, 196, 218);
+}
+
+.image-contempo {
+  margin-right: 50px;
+}
+
+.image-contempo img {
+  max-width: 510px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Section RSVP */
+.rsvp {
+  background-image: url('/Users/juliedoyen/Library/CloudStorage/OneDrive-GroupeE.D.H/EFAP2/S2/culture web/html css/Box box/danse photo net.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.rsvp h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.rsvp p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Bouton global */
+.btn {
+  background-color: rgb(241, 196, 218);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* Lieu */
+.location-icon {
+  height: 120px;
+  margin-right: 20px;
+  padding: 70px;
+}
+
+.location-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.address {
+  font-size: 1.2em;
+  text-align: right;
+  flex: 1;
+  line-height: 1.2;
+  padding: 50px;
 }
